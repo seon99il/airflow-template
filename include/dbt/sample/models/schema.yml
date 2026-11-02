@@ -1,0 +1,6 @@
+version: 2
+models:
+  - name: stg_numbers
+    columns:
+      - name: id
+        data_tests: [unique, not_null]

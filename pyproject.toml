@@ -1,0 +1,35 @@
+[project]
+name = "airflow-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Seonggil Jeong", email = "tongs_jinx_0l@icloud.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+airflow = [
+    "apache-airflow-providers-amazon>=9.37.0",
+    "apache-airflow-providers-docker>=4.6.0",
+    "apache-airflow-providers-openlineage>=2.7",
+]
+
+worker-python = [
+    "polars>=1.44.2",
+    "pyarrow>=25.0.1",
+    "pyiceberg>=0.10",
+]
+
+worker-dbt = [
+    "dbt-core>=1.7.0",
+    "dbt-postgres>=1.9",
+    "openlineage-dbt>=1.30",
+]
+
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.3",
+    "apache-airflow==3.1.2",
+]

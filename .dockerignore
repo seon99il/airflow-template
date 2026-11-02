@@ -1,0 +1,9 @@
+.venv
+.idea
+.git
+logs
+config
+**/__pycache__
+*.pyc
+include/dbt/*/target
+include/dbt/*/logs

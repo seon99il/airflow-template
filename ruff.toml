@@ -1,0 +1,4 @@
+src = ["dags", "include/python-worker"]
+
+[lint]
+extend-select = ["I"]

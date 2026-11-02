@@ -1,0 +1,26 @@
+# IDEA
+.vscode/
+.idea/
+*.iml
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+# environment files
+.env
+
+
+include/dbt/*/target/
+include/dbt/*/logs/
+
+logs/
+config/

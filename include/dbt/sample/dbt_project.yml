@@ -1,0 +1,7 @@
+name: sample
+version: "1.0.0"
+profile: postgres
+model-paths: ["models"]
+models:
+  sample:
+    +materialized: table
